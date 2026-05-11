@@ -1,0 +1,11 @@
+=======================
+MELIHAT IP ADRESS PUTTY
+=======================
+
+1.  Klik bagian “Install PUTTY files”.
+2.	Menunngu proses instalasi hingga status bar hijau selesai.
+3.	Klik tombol Finish untuk menyelesaikan pemasangan.
+4.	Isi alamat hostname didapatkan dengan cara mengetik “hostname -I” pada linux.
+5.	Klik Yes agar proses instalasi PuTTY bisa dimulai.
+6.	Input username ubuntu dan password ubuntu yaitu 10.0.2.15.
+7.	Cara melihat ip adress tekan “windows + R” ketik “cmd” lalu enter, kemudian ketik 
