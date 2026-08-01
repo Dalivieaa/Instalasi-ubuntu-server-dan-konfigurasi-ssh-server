@@ -1,11 +1,27 @@
-=======================
-MELIHAT IP ADRESS PUTTY
-=======================
+# Panduan PuTTY & Cek IP Address
 
-1.  Klik bagian “Install PUTTY files”.
-2.	Menunngu proses instalasi hingga status bar hijau selesai.
-3.	Klik tombol Finish untuk menyelesaikan pemasangan.
-4.	Isi alamat hostname didapatkan dengan cara mengetik “hostname -I” pada linux.
-5.	Klik Yes agar proses instalasi PuTTY bisa dimulai.
-6.	Input username ubuntu dan password ubuntu yaitu 10.0.2.15.
-7.	Cara melihat ip adress tekan “windows + R” ketik “cmd” lalu enter, kemudian ketik 
+### Phase 1: Install Aplikasi PuTTY
+1. Buka installer, lalu klik **Install PUTTY files**.
+2. Jika muncul pop-up izin instalasi, klik **Yes**.
+3. Tunggu indikator status bar hijau berjalan sampai selesai.
+4. Klik tombol **Finish** untuk menutup installer.
+
+---
+
+### Phase 2: Cek IP Address (Windows & Linux)
+5. **Di Windows:**
+   - Tekan `Win + R` di keyboard.
+   - Ketik `cmd` lalu tekan **Enter**.
+   - Ketik `ipconfig` untuk melihat daftar IP Address.
+
+6. **Di Linux:**
+   - Buka terminal Linux, lalu ketik `hostname -I` untuk mengetahui IP Linux.
+
+---
+
+### Phase 3: Login Ke PuTTY
+7. Buka aplikasi PuTTY yang sudah di-install.
+8. Masukkan IP Address Linux (`10.0.2.15`) pada kolom **Host Name**.
+9. Saat koneksi terbuka, masukkan login *credentials*:
+   - **Username:** `ubuntu`
+   - **Password:** `ubuntu`
